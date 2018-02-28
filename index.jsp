@@ -98,45 +98,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		
 		};
 		
-		
-		
-		/*
-		$(document).ready(function(){
-				if(window.XMLHttpRequest){
-				xmlhttp = new XMLHttpRequest();
-					
-				}else{
-					xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");	
-				}
-				
-				xmlhttp.onreadystatechange = function(){
-					
-					if(xmlhttp.readyState==4 && xmlhttp.status==200){	
-						//alert(xmlhttp.responseText)	
-						//location.reload();
-						webList = result;
-						console.log("show datatable");
-						
-						var tab = "<table>";
-						tab += "<tr><td>序号</td><td>名称</td><td>url地址</td><td>排名</td><td>国家</td></tr>";
-						for(var i = 0;i<webList.length;i++){
-							opt = webList[i];
-							tab += "<tr><td>"+(i+1)+"</td><td>"+opt.wname+"</td><td>"+opt.wurl+"</td><td>"+opt.walexa+"</td><td>"+opt.wcountry+"</td></tr>";
-						}
-						tab += "</table>";
-						//$("#showWin").html(tab);
-						document.getElementById("showWin").html(tab);
-					}	
-				}
-			xmlhttp.open("POST","web.do?findMap",true);
-			xmlhttp.send();	
-			
-			
-			console.log("yes");
-		})
-*/
-
-		
 	
 	</script>
 	
